@@ -7,7 +7,7 @@ The REpsych toolset is a proof-of-concept illustrating the generation of images 
 
 The process used to generate the proper control flow is outlined in the [DEF CON presentation](slides/domas_2015_repsych.pdf).
 
-Although there is no specific point to the project, possible (non-serious) applications are outlined in the presentation.
+Although there is no specific point to the project (other than to show that it can be done), possible (non-serious) applications are outlined in the presentation.
 
 The program works reliably with all tested versions of the IDA Pro reverse engineering tool, and semi-reliably with other CFG viewers (Hopper, BinNavi, radare2, etc).
 
