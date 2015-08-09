@@ -5,14 +5,6 @@ Psychological Warfare in Reverse Engineering
 
 The REpsych toolset is a proof-of-concept illustrating the generation of images through a program's control flow graph (CFG).
 
-![Example 1](examples/repsych_1.png?raw=true =400x)
-
-![Example 2](examples/repsych_2.png?raw=true =400x)
-
-![Example 3](examples/repsych_3.png?raw=true =400x)
-
-![Example 4](examples/repsych_4.png?raw=true =400x)
-
 The process used to generate the proper control flow is outlined in the [DEF CON presentation](slides/domas_2015_repsych.pdf).
 
 Although there is no specific point to the project, possible (non-serious) applications are outlined in the presentation.
@@ -30,4 +22,14 @@ To generate a new program from an image:
 * Run make in the root directory of the project.
 
 Two functioning programs will be created: repsych_v1 and repsych_v2.  Each uses a different strategy for ensuring the CFG renderer correctly places the CFG nodes.
+
+# Examples
+
+![Example 1](examples/repsych_1.png?raw=true)
+
+![Example 4](examples/repsych_4.png?raw=true)
+
+![Example 3](examples/repsych_3.png?raw=true)
+
+![Example 2](examples/repsych_2.png?raw=true)
 
